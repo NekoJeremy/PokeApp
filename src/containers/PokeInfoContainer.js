@@ -21,6 +21,7 @@ class PokeInfoContainer extends Component {
     const pokeName = match.params.pokeName;
     const pokeId = match.params.pokeIndex;
     const pokeDescriptionUrl = `${process.env.REACT_APP_POKE_API_BASE_URL}pokemon-species/${pokeId}`;
+    console.log(`${process.env.REACT_APP_POKE_API_BASE_URL}pokemon-species/${pokeId}`)
     axios.get(pokeDescriptionUrl).then(res => {
       const { flavor_text_entries, color } = res.data;
 
