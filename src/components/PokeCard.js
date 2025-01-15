@@ -37,7 +37,7 @@ export default withStyles({
     borderRadius: "60px"
   },
   media: {
-    minHeight: "350px",
-    minWidth: "350px"
+    minHeight: "500px",
+    minWidth: "500px"
   }
 })(PokeCard);

@@ -15,9 +15,11 @@
 
 .Footer {
   text-align: center;
-  height: 15vmin;
-  margin: "4em";
+  align-items: center;
+  height: 20%;
+  width: 100%;
   background: yellow;
+  position: absolute;
 }
 
 .eldiv {

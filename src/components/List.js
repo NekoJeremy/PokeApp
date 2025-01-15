@@ -24,7 +24,7 @@ function List({ pokedata }) {
       <Grid container justify="center">
         {pokedata.map((pokemon, index) => {
           let url =
-            "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/other-sprites/official-artwork/";
+            "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/";
 
           let pokeIndex = pokemon.url.split("/")[
             pokemon.url.split("/").length - 2

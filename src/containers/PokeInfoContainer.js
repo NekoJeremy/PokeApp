@@ -36,7 +36,7 @@ class PokeInfoContainer extends Component {
     });
   }
   render() {
-    let url = `${process.env.REACT_APP_POKEMON_ART}`;
+    let url = "https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/";
     const { pokemonDescription, pokeName, pokeId, color } = this.state;
     return (
       <>
